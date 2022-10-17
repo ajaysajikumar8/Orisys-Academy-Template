@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+#logo {
+    position: absolute;
+    right: 167px;
+    top: 230px;
+}
+
+.banner {
+    position: relative;
+    background-image: url(../img/academy-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner h1 {
+    position: absolute;
+    right: 167px;
+    top: 375px;
+    font-size: 41px;
+    width: 442px;
+    font-family: 'Inter', sans-serif;
+    text-align: right;
+    color: #1e2531;
+
+}
+
+.courses {
+    height: 100vh;
+}
+
+.courses img {
+    display: block;
+    float: left;
+}
+
+.courses ul {
+    list-style-type: none;
+}
+
+.course-obj p {
+    display: inline-block;
+    margin: 33px 72px;
+    color: #252525;
+    text-align: center;
+}
+
+.course-obj div{
+    background-color: #1e2531;
+    color:aquamarine;
+    margin: 10px 10px;
+}
+
+.courses span{
+    color:firebrick;
+}
+
+.courses div {
+    padding: 49px 150px;
+    
+}
+
+.languages {
+    height: 65vh;
+    background-image: url(../img/modulebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 98px;
+    
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 26px 11px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.training-outline {
+    padding: 10px 10px;
+    margin: 25px 196px;
+}
+
+.training-outline p{
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid #f26422;
+    padding: 6px 29px;
+    color: #f26422;
+}
+
+.footer > div {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.footer h1 {
+    margin: 40px 10px;
+}
+
+.footer .address {
+    width: 250px;
+    display: inline-block;
+    padding: 17px 23px;
+}
+
+.footer p{
+    margin: 10px 10px;
+}
+
+.training-outline ~ div{
+    height: 70vh;
+}   
+
+.group-discussion{
+    background-image: url(../img/testsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+    display: block;
+    float: left;
+}
+
+.mock-interview{
+    background-image: url(../img/intrvwbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+    display: inline-block;
+}
+
+body > section:nth-child(4) > div:nth-child(2) > div > div {
+    margin: 30px 39px;
+    padding: 162px 68px;
+    background-color: rgba(6,8,11,.7);
+    color: white;
+    text-align: center;
+}
